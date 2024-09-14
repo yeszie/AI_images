@@ -1,4 +1,4 @@
-# Geodezyjne przetwarzanie zdjęć z OpenAI GPT-4o
+# Przetwarzanie zdjęć z OpenAI GPT-4o
 
 ## Opis projektu
 
