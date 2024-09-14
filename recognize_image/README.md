@@ -17,14 +17,3 @@ Skrypt iteruje przez wszystkie pliki JPG w podanym folderze, koduje je do format
 ## Wymagania
 
 1. **OpenAI API Key:** Wymagany jest klucz API OpenAI, który powinien być przechowywany jako zmienna środowiskowa `OPEN_AI_API_KEY`.
-2. **Zależności:**
-   - `requests`: Biblioteka do wykonywania zapytań HTTP do API OpenAI.
-   - `os`: Do obsługi operacji na plikach i folderach.
-   - `base64`: Do kodowania zdjęć w formacie base64.
-   - `tempfile`: Do zarządzania katalogiem tymczasowym.
-   - `dotenv`: Do wczytywania klucza API z pliku `.env`.
-
-Aby zainstalować zależności, możesz użyć następującego polecenia:
-
-```bash
-pip install -r requirements.txt
