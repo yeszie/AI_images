@@ -2,7 +2,7 @@
 
 ## Opis projektu
 
-Ten projekt umożliwia automatyczne przetwarzanie plików JPG z folderu o nazwie `foto` oraz przesyłanie ich do modelu GPT-4o za pomocą OpenAI API. Skrypt generuje opis zawartości zdjęcia zgodnie z szablonem wiadomości, który koncentruje się na wyciągnięciu konkretnych informacji na temat zdjęcia bez opisywania warunków pogodowych.
+Ten projekt umożliwia automatyczne przetwarzanie plików JPG z folderu o nazwie `foto` oraz przesyłanie ich do modelu GPT-4o za pomocą OpenAI API. Skrypt generuje opis zawartości zdjęcia zgodnie z szablonem wiadomości, który koncentruje się na wyciągnięciu konkretnych informacji na temat zdjęcia.
 
 Skrypt iteruje przez wszystkie pliki JPG w podanym folderze, koduje je do formatu base64, a następnie przesyła je do API OpenAI, aby uzyskać zwięzły opis zdjęcia. Wynikowy opis jest zapisywany w pliku tekstowym o tej samej nazwie co plik zdjęcia, ale z rozszerzeniem `.txt`.
 
